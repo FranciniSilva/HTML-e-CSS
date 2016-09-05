@@ -29,9 +29,22 @@ h2{
 	background-color: #FFFFFF;
 }
 
-nav ul li{
-	display: inline;
-	margin-right: 50px;
+#tb-nutrientes tr:nth-child(odd){
+	background-color: #FFFFFF;
+}
+
+#tb-nutrientes tr:nth-child(even){
+	background-color: #F8EAB3;
+}
+
+nav{
+	float: left;
+	width: 200px;
+}
+
+#conteudo{
+	float: right;
+	width: 740px;
 }
 
 #topo{
@@ -47,4 +60,33 @@ figure{
 	border: 1px solid black;
 	box-shadow: 5px 5px 3px rgba(0,0,0,0.7);
 	-webkit-transform:rotate(-5deg);
+}
+
+nav ul li {
+	background-color: #C7BE9B;
+	margin-bottom: 3px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+nav ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+nav ul li:hover{
+	background-color: #9C8F67;
+}
+
+#banner{
+	top:0;
+	right: 0;
+	position: absolute;
+}
+
+#titulo {
+	text-align: center;
 }
