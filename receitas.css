@@ -14,3 +14,23 @@ h2{
 	padding-right: 5px;
 	color: #FFFFFF;
 }
+
+#tb-nutrientes{
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid black;
+}
+
+#tb-nutrientes th{
+	background-color: #FFFFFF;
+}
+
+nav ul li{
+	display: inline;
+	margin-right: 50px;
+}
+
+#topo{
+	text-align: center;
+}
